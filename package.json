@@ -1,6 +1,6 @@
 {
   "name": "@betsol/detect-environment",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Detects environment by examining CLI arguments and NODE_ENV",
   "main": "build/index.js",
   "typings": "build/index.d.ts",
