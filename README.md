@@ -44,12 +44,12 @@ This method detects environment by examining the CLI arguments passed to your pr
 
 Various call formats are possible:
 
-- `$ app --environment=production` — This is the longest "canonical" form
-- `$ app --env=production` — Shorthand `"env"` argument name could be used
-- `$ app --environment=prod` — Shorthand `"prod"` environment name is used
-- `$ app --env=prod` — Both of the above
-- `$ app --production` — Just the canonical name of the environment is used
-- `$ app --prod` — This is the shortest form, nice for development
+- `$ node app.js --environment=production` — This is the longest "canonical" form
+- `$ node app.js --env=production` — Shorthand `"env"` argument name could be used
+- `$ node app.js --environment=prod` — Shorthand `"prod"` environment name is used
+- `$ node app.js --env=prod` — Both of the above
+- `$ node app.js --production` — Just the canonical name of the environment is used
+- `$ node app.js --prod` — This is the shortest form, nice for development
 
 > Canonical environment names and their aliases could be configured using `environments` option.
 
